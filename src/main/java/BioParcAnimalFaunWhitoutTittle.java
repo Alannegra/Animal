@@ -94,7 +94,7 @@ public class BioParcAnimalFaunWhitoutTittle {
                     //System.out.println(clase.getText());
                     fw.write(part1+",");
             }
-
+            fw.write("\n");
 
             //driver.navigate().back();
         }
