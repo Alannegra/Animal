@@ -24,7 +24,7 @@ public class BioParcAnimalFaunWhitoutTittle {
         WebDriver driver = new FirefoxDriver(options);
 
         driver.get("https://www.bioparcvalencia.es/animal/sabana-africana/");
-        File file = new File("MIRAsintitulo3.txt");
+        File file = new File("MIRAsintitulo4.txt");
         FileWriter fw = new FileWriter(file);
 
         WebElement inputButtonNext = driver.findElement(new By.ById("pdcc-modal-accept"));
@@ -75,32 +75,26 @@ public class BioParcAnimalFaunWhitoutTittle {
                     }
 
                 }
-            }
 
+            }
 
 
              clases = driver.findElements(new By.ByClassName("box-ficha-animal--caracteristica"));
 
-
-
-            int i = 0;
             for ( WebElement clase : clases) {
 
-                String r = clase.findElement(new By.ByClassName("box-ficha-animal--title")).getText();;
+                String r = clase.findElement(new By.ByClassName("box-ficha-animal--title")).getText();
                 String part1 = codeCracker.recorte(clase.getText(),r);
 
-                System.out.print(part1);
+                System.out.print(part1 + " MIRA AQUI");
 
                     //System.out.println(clase.getText());
-                    fw.write(part1+",");
+                    fw.write(part1 + " MIRA AQUI");
             }
             fw.write("\n");
 
             //driver.navigate().back();
         }
-
-
-
 
 
         fw.close();
