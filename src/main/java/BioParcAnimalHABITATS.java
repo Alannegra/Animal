@@ -35,27 +35,34 @@ public class BioParcAnimalHABITATS {
         List<WebElement> habitats = new ArrayList<>();
         List<String> habitatsNom = new ArrayList<>();
 
-
         //box-text--titulo fs-5 color-verde-2
-
-
 
         //habitats = driver.findElements(new By.ByClassName("box-text--titulo"));
         //habitats = driver.findElements(new By.ByClassName("box-text margin-bottom-3x boxed verde-2 left"));
-        habitats = driver.findElements(new By.ByClassName("box-text"));
+        habitats = driver.findElements(new By.ByClassName("boxed"));
 
         for (WebElement habitat: habitats) {
+            //System.out.println(habitat.getText());
 
-            WebElement titulohabitats = driver.findElement(new By.ByClassName("box-text--titulo"));
-            WebElement enlace = driver.findElement(new By.ByClassName("box-text--titulo"));
+            enlaces.add(habitat.findElement(new By.ByTagName("a")).getAttribute("href"));
 
-            System.out.println(titulohabitats.getText());
-            habitatsNom.add(habitat.getAttribute("href"));
-            System.out.println(habitatsNom.get(0));
+            System.out.println(habitat.findElement(new By.ByClassName("box-text--titulo")).getText());
+            System.out.println(habitat.findElement(new By.ByClassName("box-text--content")).getText());
+            //System.out.println(habitat.findElement(new By.ByClassName("box-text--content")).getAttribute("href"));
+
+            //WebElement titulohabitats = driver.findElement(new By.ByClassName("box-text--titulo"));
+           // System.out.println(titulohabitats.getText());
+
+           // WebElement enlace = driver.findElement(new By.ByClassName("box-text--content"));
+            //System.out.println(enlace.getText());
+            //habitatsNom.add(enlace.getAttribute("href"));
+            //System.out.println(habitatsNom.get(0));
         }
 
-        for (String habitatNom: habitatsNom) {
-            System.out.println(habitatNom);
+        for (String enlace: enlaces) {
+            System.out.println(enlace);
+            if (enlace != null) driver.navigate().to(enlace);
+
         }
 
 

@@ -12,7 +12,11 @@ import java.util.List;
 
 public class BioParcAnimalFaunWhitoutTittle {
 
+
     public static void main(String[] args) throws IOException {
+
+        CodeCracker codeCracker = new CodeCracker();
+
         System.out.println(System.getenv("PATH"));
         System.out.println(System.getenv("HOME"));
         System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");
@@ -20,7 +24,7 @@ public class BioParcAnimalFaunWhitoutTittle {
         WebDriver driver = new FirefoxDriver(options);
 
         driver.get("https://www.bioparcvalencia.es/animal/sabana-africana/");
-        File file = new File("MIRAsintitulo2.txt");
+        File file = new File("MIRAsintitulo3.txt");
         FileWriter fw = new FileWriter(file);
 
         WebElement inputButtonNext = driver.findElement(new By.ById("pdcc-modal-accept"));
@@ -61,12 +65,12 @@ public class BioParcAnimalFaunWhitoutTittle {
                 cr.click();
 
                 //fw.write(miarray[1]+"\n");
-                fw.write(cr.getText()+"\n");
+                //fw.write(cr.getText()+",");
 
                 for (WebElement extra : extras) {
 
                     if(!extra.getText().isEmpty()){
-                        fw.write(extra.getText()+"\n");
+                        fw.write(extra.getText()+",");
                         System.out.println(extra.getText());
                     }
 
@@ -81,8 +85,14 @@ public class BioParcAnimalFaunWhitoutTittle {
 
             int i = 0;
             for ( WebElement clase : clases) {
-                    System.out.println(clase.getText());
-                    fw.write(clase.getText()+"\n");
+
+                String r = clase.findElement(new By.ByClassName("box-ficha-animal--title")).getText();;
+                String part1 = codeCracker.recorte(clase.getText(),r);
+
+                System.out.print(part1);
+
+                    //System.out.println(clase.getText());
+                    fw.write(part1+",");
             }
 
 
