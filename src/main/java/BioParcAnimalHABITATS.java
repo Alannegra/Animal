@@ -30,6 +30,8 @@ public class BioParcAnimalHABITATS {
         List<String> enlaces = new ArrayList<>();
 
         //------------------
+
+
         driver.navigate().to("https://www.bioparcvalencia.es/animales/habitats/");
 
         List<WebElement> habitats = new ArrayList<>();

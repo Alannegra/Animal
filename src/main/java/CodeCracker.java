@@ -78,11 +78,11 @@ public class CodeCracker
         }
 
         //System.out.print("\nThe new string is: ");
-        for(i=0; i<strLen; i++)
-            System.out.print(strChars[i]);
-
-
         String r = "";
+        for(i=0; i<strLen; i++){
+            r+=strChars[i];
+            //System.out.print(strChars[i]);
+        }
         return r;
     }
 }
