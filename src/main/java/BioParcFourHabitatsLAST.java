@@ -1,3 +1,4 @@
+import jakarta.xml.bind.JAXB;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -78,14 +79,13 @@ public class BioParcFourHabitatsLAST {
             }
 
         //----------
-
+            int id = 0;
         for (String animalLink: animalsLinks) {
             driver.navigate().to(animalLink);
             animalsDescriptions = driver.findElements(new By.ByClassName("vc_tta-panel-body"));
             animalsDescriptionsButtons = driver.findElements(new By.ByClassName("vc_tta-tab"));
             animalsInfos = driver.findElements(new By.ByClassName("box-ficha-animal--caracteristica"));
 
-            int id = 0;
             int contador = 0;
 
             animals.add(new Animal());
@@ -93,18 +93,19 @@ public class BioParcFourHabitatsLAST {
             for (WebElement animalInfo : animalsInfos) {
                 String tituloDelete = animalInfo.findElement(new By.ByClassName("box-ficha-animal--title")).getText();
                 String respuesta = codeCracker.recorte(animalInfo.getText(),tituloDelete);
-                System.out.print(respuesta);
+                //System.out.print(respuesta);
                 fw.write(respuesta);
 
                 switch (contador) {
                     case 0:
                         animals.get(id).setNombre(respuesta.trim());
+                        System.out.println(respuesta);
                         break;
                     case 1:
                         animals.get(id).setEspecie(respuesta.trim());
                         break;
                     case 2:
-                        animals.get(id).setFamilia(respuesta.trim());
+                        animals.get(id).setFamilia(codeCracker.recorte(respuesta.trim(),"Subfamilia:").trim());
                         break;
                     case 3:
                         animals.get(id).setOrden(respuesta.trim());
@@ -112,7 +113,9 @@ public class BioParcFourHabitatsLAST {
                     case 4:
                         animals.get(id).setClase(respuesta.trim());
                         break;
-                    default: contador = 10;
+                    case 5:
+                        break;
+                    default:
                         break;
                 }
 
@@ -130,31 +133,40 @@ public class BioParcFourHabitatsLAST {
                         String respuesta = animalDescription.getText();
                         fw.write(respuesta + " ");
                         //System.out.println(respuesta);
-                    switch (contador) {
-                        case 0:
-                            animals.get(id).setHabitat(respuesta);
-                            System.out.println(respuesta);
-                            break;
-                        case 1:
-                            animals.get(id).setDieta(respuesta);
-                            System.out.println(respuesta);
-                            break;
-                        case 2:
-                            animals.get(id).setGestacion(respuesta);
-                            System.out.println(respuesta);
-                            break;
-                        case 3:
-                            animals.get(id).setNumeroDeCrias(respuesta);
-                            System.out.println(respuesta);
-                            break;
-                        case 4:
-                            animals.get(id).setVida(respuesta);
-                            System.out.println(respuesta);
-                            break;
-                        default: contador = 10;
-                            break;
-                    }
-                    contador++;
+
+                        if(respuesta.isEmpty()){
+
+                        }else {
+                            switch (contador) {
+                                case 0:
+                                    animals.get(id).setHabitat(respuesta);
+                                    System.out.println(respuesta + "habitat");
+                                    break;
+                                case 1:
+                                    animals.get(id).setDieta(respuesta);
+                                    System.out.println(respuesta + "Dieta");
+                                    break;
+                                case 2:
+                                    animals.get(id).setGestacion(respuesta);
+                                    System.out.println(respuesta + "Gestacion");
+                                    break;
+                                case 3:
+                                    animals.get(id).setNumeroDeCrias(respuesta);
+                                    System.out.println(respuesta + "Crias");
+                                    break;
+                                case 4:
+                                    animals.get(id).setVida(respuesta);
+                                    System.out.println(respuesta + "Vida");
+                                    break;
+                                default:
+                                    ;
+                                    break;
+                            }
+
+                            contador++;
+                        }
+
+
                     }
                 }
 
@@ -180,7 +192,7 @@ public class BioParcFourHabitatsLAST {
 
         csv = new Csv(habitats);
         csvAnimal = new CsvAnimal(animals);
-        //jaxb = new JAXB(champions);
+        jaxb = new Jaxb(animals);
 
     }
 

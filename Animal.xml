@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Animales>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+        <Especie>Burhinus capensis</Especie>
+        <Familia>Burhinidae</Familia>
+        <Gestacion>26-27 días.</Gestacion>
+        <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+        <Nombre>Alcaraván del Cabo</Nombre>
+        <Crias>1-3</Crias>
+        <Orden>Charadriiformes</Orden>
+        <Vida>Alrededor de 15 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>El kobo es una animal muy dependiente del agua, se alimenta de una gran variedad de herbáceas de diferentes medidas de longitud. Su dieta es muy rica en proteínas.</Dieta>
+        <Especie>Kobus ellipsiprymnus</Especie>
+        <Familia>Bovidae
+ Antilopinae</Familia>
+        <Gestacion>Alrededor de 270-285 días.</Gestacion>
+        <Habitat>Habita zonas de sabana en las que prefiere llanuras de herbazal próximas a fuentes de agua.</Habitat>
+        <Nombre>Antílope acuático</Nombre>
+        <Crias>1</Crias>
+        <Orden>Artiodactyla</Orden>
+        <Vida>18 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Consiste principalmente en anfibios (especialmente Xenopus spp.) y pequeños peces, así como crustáceos, gusanos e insectos.</Dieta>
+        <Especie>Scopus umbretta</Especie>
+        <Familia>Scopidae</Familia>
+        <Gestacion>28-30 días.</Gestacion>
+        <Habitat>Viven en las orillas de lagos ríos y estuarios de todas las zonas de humedales, incluidas las zonas agrícolas, así como en las sabanas y bosques.</Habitat>
+        <Nombre>Ave martillo</Nombre>
+        <Crias>3-7 huevos.</Crias>
+        <Orden>Pelicaniformes o Ciconiiformes</Orden>
+        <Vida>Sin determinar.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Se alimenta principalmente de hierbas, tallos duros, semillas, flores y frutos, ocasionalmente también de carroña, insectos y pequeños vertebrados. Engulle piedras y otras sustancias duras para ayudar a la digestión.</Dieta>
+        <Especie>Struthio camelus</Especie>
+        <Familia>Struthionidae</Familia>
+        <Gestacion>42-45 días.</Gestacion>
+        <Habitat>Vive en zonas de sabana, en estepas y en desiertos y zonas áridas.</Habitat>
+        <Nombre>Avestruz</Nombre>
+        <Crias>15</Crias>
+        <Orden>Struthioniformes</Orden>
+        <Vida>30-40 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Herbívora a base principalmente de gramíneas del género Themeda (en varias fases de crecimiento) y también de los géneros Eragrostis y Chloromelas.</Dieta>
+        <Especie>Damaliscus pygargus phillipsi</Especie>
+        <Familia>Bovidae
+ Antilopinae</Familia>
+        <Gestacion>Alrededor de 240 días.</Gestacion>
+        <Habitat>En la sabana, en zonas de herbazales y llanuras de pastos.</Habitat>
+        <Nombre>Blesbok</Nombre>
+        <Crias>1</Crias>
+        <Orden>Artiodactyla</Orden>
+        <Vida>23 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Pasto de baja calidad, tallos duros y, en ocasiones, hojas o cortezas de árboles y arbustos, requieren de una gran cantidad de alimento por lo que no es raro que pasen en torno a 20 horas al día pastando.</Dieta>
+        <Especie>Equus burchelli boehmi</Especie>
+        <Familia>Equidae</Familia>
+        <Gestacion>360-370 días.</Gestacion>
+        <Habitat>Sabana y llanuras herbáceas desde el nivel del mar hasta altitudes de 4300 metros como en el monte Kenia. Como las cebras de Grant necesitan beber diariamente, su hábitat está restringido a zonas con distancia a fuentes de agua a no más de medio día de camino.</Habitat>
+        <Nombre>Cebra de Grant</Nombre>
+        <Crias>1</Crias>
+        <Orden>Perissodactyla</Orden>
+        <Vida>38-40 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Omnívora, se alimenta de tallos, hojas y semillas de plantas acuáticas, así como de insectos acuáticos, crustáceos y renacuajos.</Dieta>
+        <Especie>Anas capensis</Especie>
+        <Familia>Anatidae</Familia>
+        <Gestacion>25 días.</Gestacion>
+        <Habitat>Generalmente vive en lagos salinos de aguas superficiales, humedales salobres temporales o permanentes, ríos y en tierras de inundación, también en depósitos y estanques artificiales, en zonas costeras, estuarios, lagunas o marismas.</Habitat>
+        <Nombre>Cerceta del Cabo</Nombre>
+        <Crias>5-11</Crias>
+        <Orden>Anseriformes</Orden>
+        <Vida>20-26 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Grandes insectos, principalmente langostas y orugas, ocasionalmente también se alimenta de pequeños reptiles, anfibios, ratones, cangrejos y huevos.</Dieta>
+        <Especie>Ciconia abdimii</Especie>
+        <Familia>Ciconiidae</Familia>
+        <Gestacion>30-33 días.</Gestacion>
+        <Habitat>Sabanas y herbazales con zonas de agua cerca.</Habitat>
+        <Nombre>Cigüeña de Abdim</Nombre>
+        <Crias>2-3 huevos.</Crias>
+        <Orden>Ciconiiformes</Orden>
+        <Vida>20 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Incluye una gran variedad de hierbas y arbustos, prefieren los brotes, capullos, frutas y bayas, ocasionalmente también se alimentan de corteza de árbol.</Dieta>
+        <Especie>Procavia capensis</Especie>
+        <Familia>Procaviidae</Familia>
+        <Gestacion>De 212 a 240 días.</Gestacion>
+        <Habitat>Se encuentran generalmente en hábitats áridos de sabanas, bosques de matorral y desiertos, en los que ocupa ambientes rocosos, como los Kopjes, que presenten una cierta cobertura vegetal y en los que haya grietas y cavidades que usan como refugio. Aunque no excavan madrigueras puede ocupar madrigueras abandonadas, como las de oricteropo o las de suricatas.</Habitat>
+        <Nombre>Damán roquero</Nombre>
+        <Crias>1-6</Crias>
+        <Orden>Hyracoidea</Orden>
+        <Vida>Alrededor de 12 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Herbívora, a base de materia vegetal fácilmente digerible y con poca cantidad de fibra. El 80% de su dieta consiste en hojas de árboles y arbustos, el 17% procede de pastos, y el resto de hierbas y juncos.</Dieta>
+        <Especie>Madoqua kirkii</Especie>
+        <Familia>Bovidae
+ Antilopinae</Familia>
+        <Gestacion>Alrededor de 170 días.</Gestacion>
+        <Habitat>Habita zonas áridas de matorral espeso que no se extienden mucho en la sabana y donde además de alimentarse, puede esconderse. No necesitan mucha agua.</Habitat>
+        <Nombre>Dik-dik de Kirk</Nombre>
+        <Crias>1</Crias>
+        <Orden>Artiodactyla</Orden>
+        <Vida>17 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Herbívoros generalistas, se alimentan de una gran variedad de hierbas y material herbáceo que incluye raíces, hojas, frutos, ramas, cortezas y semillas.</Dieta>
+        <Especie>Loxodonta africana</Especie>
+        <Familia>Elephantidae</Familia>
+        <Gestacion>640-660 días.</Gestacion>
+        <Habitat>Áreas de sabana seca y de matorral, donde la agricultura es marginal.</Habitat>
+        <Nombre>Elefante africano de sabana</Nombre>
+        <Crias>1</Crias>
+        <Orden>Proboscidea</Orden>
+        <Vida>50-70 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Se alimenta principalmente de frutas e insectos.</Dieta>
+        <Especie>Lamprotornis purpureus</Especie>
+        <Familia>Sturnidae</Familia>
+        <Gestacion>15 días.</Gestacion>
+        <Habitat>Viven en zonas de sabana abierta y arbolada.</Habitat>
+        <Nombre>Estornino púrpura</Nombre>
+        <Crias>2-3</Crias>
+        <Orden>Passeriformes</Orden>
+        <Vida>13-17 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Se alimenta principalmente de insectos, complementa su dieta con frutas.</Dieta>
+        <Especie>Cosmopsarus regius</Especie>
+        <Familia>Sturnidae</Familia>
+        <Gestacion>11-14 días.</Gestacion>
+        <Habitat>Vive en zonas de sabana, en bosques abiertos y matorrales de acacias.</Habitat>
+        <Nombre>Estornino real</Nombre>
+        <Crias>3-5</Crias>
+        <Orden>Passeriformes</Orden>
+        <Vida>12-14 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Se alimentan de termitas, saltamontes y otros insectos que encuentran por el suelo, así como de pequeñas bayas que recolectan.</Dieta>
+        <Especie>Lamprotornis superbus</Especie>
+        <Familia>Sturnidae</Familia>
+        <Gestacion>12 días.</Gestacion>
+        <Habitat>Vive en ambientes de sabana, en zonas de pradera, y también en zonas agrícolas, urbanas y suburbanas.</Habitat>
+        <Nombre>Estornino soberbio</Nombre>
+        <Crias>3-4</Crias>
+        <Orden>Passeriformes</Orden>
+        <Vida>17 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Dieta omnívora compuesta de hierbas, raíces, bayas, corteza y ocasionalmente de hongos, huevos y carroña, así como pequeños mamíferos, reptiles y aves. El alimento ingerido varía estacionalmente en función de la disponibilidad, este oportunismo y la versatilidad de la dieta constituyen una excelente estrategia que garantiza su supervivencia.</Dieta>
+        <Especie>Phacochoerus africanus</Especie>
+        <Familia>Suidae</Familia>
+        <Gestacion>170-175 días.</Gestacion>
+        <Habitat>Se encuentra en todo tipo de sabanas; herbáceas, arbustivas y arboladas, preferentemente con reservas de agua y grandes espacios abiertos.</Habitat>
+        <Nombre>Facoquero</Nombre>
+        <Crias>1-7</Crias>
+        <Orden>Artiodactyla</Orden>
+        <Vida>7-11 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Animal pastador, se alimenta principalmente de hojas de acacias, de duros y ásperos pastos, de matorrales y de granos de mijo.</Dieta>
+        <Especie>Nanger dama mhorr</Especie>
+        <Familia>Bovidae
+ Antilopinae</Familia>
+        <Gestacion>Entre 174-202 días.</Gestacion>
+        <Habitat>En la parte occidental del norte de África, la gacela Mhorr solía encontrarse en zonas de estepas montañosas secas y de estepas herbáceas.</Habitat>
+        <Nombre>Gacela Mhorr</Nombre>
+        <Crias>1</Crias>
+        <Orden>Artiodactyla</Orden>
+        <Vida>12 años en la naturaleza y hasta 19 en cautividad.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Herbívora a base principalmente de pastos de pequeño tamaño, también se alimentan de ramitas, semillas y hojas de árboles, especialmente durante la estación seca.</Dieta>
+        <Especie>Eudorcas thomsonii</Especie>
+        <Familia>Bovidae
+ Antilopinae</Familia>
+        <Gestacion>Alrededor de 180 días.</Gestacion>
+        <Habitat>Viven en sabanas, en zonas secas, de herbazal y de matorral. También adaptadas a vivir en zonas áridas y son capaces de permanecer en sabanas secas durante más tiempo que otros ungulados de la misma región, los cuales migran a zonas más húmedas.</Habitat>
+        <Nombre>Gacela de Thomson</Nombre>
+        <Crias>1</Crias>
+        <Orden>Artiodactyla</Orden>
+        <Vida>10 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Son omnívoros generalistas y se alimentan de insectos, de pequeños animales como lagartos y gusanos y de semillas.</Dieta>
+        <Especie>Balearica regulorum</Especie>
+        <Familia>Gruidae</Familia>
+        <Gestacion>28-31 días.</Gestacion>
+        <Habitat>Generalmente se encuentra en praderas cercanas a masas de agua, donde suelen hacer sus nidos, sin embargo, a menudo se alimentan en sabanas abiertas, e incluso se la observa también se encuentran en tierras de cultivo.</Habitat>
+        <Nombre>Grulla coronada cuelligrís</Nombre>
+        <Crias>2-4</Crias>
+        <Orden>Gruiformes</Orden>
+        <Vida>22 años en la naturaleza y 25 en cautividad.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Diferentes especies de antílopes, cebras, búfalos, ñus, zorros, leones jóvenes y en ocasiones carroña.</Dieta>
+        <Especie>Crocuta crocuta</Especie>
+        <Familia>Hyaenidae
+ Hyaeninae</Familia>
+        <Gestacion>117 días.</Gestacion>
+        <Habitat>La hiena ocupa una gran variedad de hábitats; regiones áridas y abiertas que incluyen zonas semidesérticas, sabanas, bosques de acacias, zonas pantanosas y áreas montañosas de hasta 4000 metros de altitud. Aunque necesitan agua para beber, son capaces de vivir en zonas con poca disponibilidad.</Habitat>
+        <Nombre>Hiena manchada</Nombre>
+        <Crias>1-4, siendo la media 2.</Crias>
+        <Orden>Carnivora</Orden>
+        <Vida>12 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Se alimentan principalmente de insectos, arácnidos, anélidos, crustáceos y moluscos. En ocasiones se alimentan de ranas, reptiles, peces, pequeños pájaros y huevos.</Dieta>
+        <Especie>Threskiornis aethiopicus</Especie>
+        <Familia>Threskiornithidae</Familia>
+        <Gestacion>21-29 días.</Gestacion>
+        <Habitat>Vive en una amplia variedad de hábitats, generalmente se encuentran en las proximidades de ríos, corrientes, masas de agua continental y zonas costeras de áreas tropicales y subtropicales.</Habitat>
+        <Nombre>Ibis sagrado</Nombre>
+        <Crias>1-5</Crias>
+        <Orden>Ciconiiformes</Orden>
+        <Vida>20 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Pasta casi exclusivamente durante la estación lluviosa, cuando llega la estación seca el porcentaje de gramíneas disminuye hasta un 30% de su dieta y ramonea arbustos, herbáceas, vainas y semillas.</Dieta>
+        <Especie>Aepyceros melampus</Especie>
+        <Familia>Bovidae
+ Antilopinae</Familia>
+        <Gestacion>Alrededor de 195-200 días.</Gestacion>
+        <Habitat>En zonas de sabana, donde prefiere los márgenes entre los herbazales y los terrenos arbolados densos, ya que necesita forraje de gran calidad, humedad, sombra y cubierto. Ocupa los herbazales durante las lluvias y los terrenos arbolados en la estación seca.</Habitat>
+        <Nombre>Impala</Nombre>
+        <Crias>1</Crias>
+        <Orden>Artiodactyla</Orden>
+        <Vida>13 años en la naturaleza y hasta 17 en cautividad.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Su dieta consiste principalmente en peces de 15-30 cm de longitud y de más de 500 g de peso, así como crustáceos, ranas, reptiles, pequeños mamíferos, moluscos e insectos.</Dieta>
+        <Especie>Ephippiorhynchus senegalensis</Especie>
+        <Familia>Ciconiidae</Familia>
+        <Gestacion>30-35 días.</Gestacion>
+        <Habitat>Vive en grandes humedales de agua dulce, salobre o salada, tales como marjales de aguas superficiales, márgenes de ríos y orillas de lagos, zonas pantanosas y llanuras de aluvión, en los que haya abundante presencia de peces y grandes árboles cerca para anidar.</Habitat>
+        <Nombre>Jabirú africano</Nombre>
+        <Crias>1-5</Crias>
+        <Orden>Ciconiiformes</Orden>
+        <Vida>12 años en la naturaleza y 19 en cautividad.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Hojas, ramas y flores principalmente de diferentes especies de acacia.</Dieta>
+        <Especie>Giraffa camelopardalis rothschildi
+Giraffa camelopardalis</Especie>
+        <Familia>Giraffidae</Familia>
+        <Gestacion>Alrededor de 450 días.</Gestacion>
+        <Habitat>Se encuentran en todo tipo de ambientes de sabana, si bien prefieren áreas ricas en acacias, los machos suelen aventurarse en el interior de densas arboledas en busca de más follaje. Debido a que sólo beben ocasionalmente, las jirafas pueden encontrarse lejos de fuentes de agua.</Habitat>
+        <Nombre>Jirafa Baringo</Nombre>
+        <Crias>1</Crias>
+        <Orden>Artiodactyla</Orden>
+        <Vida>De 10-15 años en la naturaleza y de 20-27 en cautividad.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Carnívoros generalistas, aunque los ungulados de mediano y gran tamaño ocupan la mayor parte de su dieta, pueden alimentarse de una gran variedad de vertebrados, desde pequeños ratones hasta jóvenes rinocerontes, hipopótamos y elefantes, pasando por pájaros, reptiles, peces e incluso insectos.</Dieta>
+        <Especie>Panthera leo bleyenberghi
+Panthera leo</Especie>
+        <Familia>Felidae
+ Pantherinae</Familia>
+        <Gestacion>92-119 días.</Gestacion>
+        <Habitat>Sabana africana y zonas semidesérticas.</Habitat>
+        <Nombre>León africano</Nombre>
+        <Crias>1-4</Crias>
+        <Orden>Carnivora</Orden>
+        <Vida>12 años en la naturaleza, hasta 25 años en cautividad.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Predominantemente insectívora, especialmente a base de termitas y escarabajos, pero también ciempiés, larvas de escarabajo y ocasionalmente pequeños vertebrados (pequeños mamíferos, geckos, serpientes y pájaros).</Dieta>
+        <Especie>Helogale parvula undulata</Especie>
+        <Familia>Herpestidae
+ Mungotinae</Familia>
+        <Gestacion>55 días.</Gestacion>
+        <Habitat>Se encuentra en un amplio rango de hábitats, principalmente en sabana, sabana arbolada, zonas boscosas y zonas de matorral seco, terrenos áridos y semiáridos. Se encuentran estrechamente relacionadas con termiteros, que usan como madrigueras.</Habitat>
+        <Nombre>Mangosta enana</Nombre>
+        <Crias>1-6</Crias>
+        <Orden>Carnivora</Orden>
+        <Vida>13 años en la naturaleza y hasta 18 años en cautividad.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Predominantemente insectívora, especialmente a base de escarabajos y larvas de ciempiés, y ocasionalmente pequeños vertebrados (incluyendo huevos, ratones, ratas, ranas, lagartos y serpientes).</Dieta>
+        <Especie>Mungos mungo</Especie>
+        <Familia>Herpestidae
+ Mungotinae</Familia>
+        <Gestacion>60 días.</Gestacion>
+        <Habitat>Se encuentra en un amplio rango de hábitats, principalmente en sabanas, sabanas arboladas, zonas boscosas, zonas de matorral seco y áreas rocosas de la sabana. Se encuentran estrechamente relacionadas con termiteros.</Habitat>
+        <Nombre>Mangosta rayada</Nombre>
+        <Crias>1-4</Crias>
+        <Orden>Carnivora</Orden>
+        <Vida>17 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Se alimentan principalmente de carroña y restos de peces desechados por los humanos, secundariamente también se alimentan de presas vivas, como peces, termitas, langostas, ranas, lagartos y serpientes, ratas y ratones y aves.</Dieta>
+        <Especie>Leptoptilos crumeniferus</Especie>
+        <Familia>Ciconiidae</Familia>
+        <Gestacion>30 días.</Gestacion>
+        <Habitat>Vive en una gran variedad de hábitats, desde sabanas secas, pastos y llanuras, zonas pantanosas, orillas de ríos y lagos y otros humedales.</Habitat>
+        <Nombre>Marabú africano</Nombre>
+        <Crias>2-3 huevos.</Crias>
+        <Orden>Ciconiiformes</Orden>
+        <Vida>25 años en la naturaleza y hasta 44 en cautividad.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Hormigas, termitas y ocasionalmente larvas de insectos (principalmente escarabajos).</Dieta>
+        <Especie>Orycteropus afer</Especie>
+        <Familia>Orycteropodidae</Familia>
+        <Gestacion>243 días.</Gestacion>
+        <Habitat>Sabana abierta, zonas semiáridas y claros de bosque; generalmente en suelos arenosos o de arcilla donde es fácil cavar y en lugares donde haya una gran abundancia de hormigas y termitas.</Habitat>
+        <Nombre>Oricteropo</Nombre>
+        <Crias>1 y rara vez 2.</Crias>
+        <Orden>Tubulidentata</Orden>
+        <Vida>18 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Se alimenta de semillas y pequeños frutos que recolecta del suelo.</Dieta>
+        <Especie>Columba guinea</Especie>
+        <Familia>Columbidae</Familia>
+        <Gestacion>15-16 días.</Gestacion>
+        <Habitat>Vive en ambientes de sabana, en zonas con árboles altos, acantilados o paredes rocosas que puedan ser usados para anidar o descansar.</Habitat>
+        <Nombre>Paloma de Guinea</Nombre>
+        <Crias>2</Crias>
+        <Orden>Columbiformes</Orden>
+        <Vida>10-15 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Omnívora a base de granos, semillas, bulbos, raíces, frutos, insectos, pequeños invertebrados e incluso pequeños reptiles.</Dieta>
+        <Especie>Guttera pucherani pucherani</Especie>
+        <Familia>Numididae</Familia>
+        <Gestacion>28 días.</Gestacion>
+        <Habitat>Vive generalmente en zonas secas y montañosas, tales como bosques de acacias poco densos, sabanas o desiertos.</Habitat>
+        <Nombre>Pintada moñuda</Nombre>
+        <Crias>4-10</Crias>
+        <Orden>Galliformes</Orden>
+        <Vida>12 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Reptilia</Clase>
+        <Dieta>Se alimenta principalmente de roedores, también pequeños conejos y ocasionalmente de aves y reptiles.</Dieta>
+        <Especie>Python regius</Especie>
+        <Familia>Boidae</Familia>
+        <Gestacion>44-54 días.</Gestacion>
+        <Habitat>Vive en zonas boscosas, matorrales, tierras semiáridas y agrícolas, siempre cercanas al agua</Habitat>
+        <Nombre>Pitón real</Nombre>
+        <Crias>4-12</Crias>
+        <Orden>Squamata</Orden>
+        <Vida>15-30 años en la naturaleza y por encima de 40 en cautividad.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Reptilia</Clase>
+        <Dieta>Se alimentan principalmente de vertebrados terrestres. Los individuos jóvenes, se alimentan de pequeños mamíferos, especialmente ratas. Una vez son adultos, se alimentarán de presas de mayor tamaño, como primates, cocodrilos, lagartos grandes, y antílopes</Dieta>
+        <Especie>Python sebae</Especie>
+        <Familia>Boidae</Familia>
+        <Gestacion>65-80 días.</Gestacion>
+        <Habitat>Tienen preferencia por los bosques húmedos o de hoja perenne y sabanas abiertas. Suelen frecuentar afloramientos rocosos que utilizan para ocultarse, así como madrigueras de mamíferos en las zonas menos rocosas. Con frecuencia se encuentran también cerca de ríos y lagos.</Habitat>
+        <Nombre>Pitón de Seba</Nombre>
+        <Crias>20-50</Crias>
+        <Orden>Squamata</Orden>
+        <Vida>20-30 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Raíces, bulbos, tubérculos y corteza de árboles. Ocasionalmente carroña o esqueletos viejos, que roen en busca de sales minerales.</Dieta>
+        <Especie>Hystrix africaeaustralis</Especie>
+        <Familia>Hystricidae</Familia>
+        <Gestacion>Alrededor de 94 días.</Gestacion>
+        <Habitat>En su área de distribución, se encuentran en ambientes con vegetación comprendidos entre el nivel del mar y los 2000 m de altitud. Prefieren zonas con colinas y afloramientos rocosos donde pueden encontrar refugio durante el día.</Habitat>
+        <Nombre>Puercoespín sudafricano</Nombre>
+        <Crias>1-4</Crias>
+        <Orden>Rodentia</Orden>
+        <Vida>Hasta 15 años en la naturaleza y hasta 23 en cautividad.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Son omnívoras, se alimentan de una gran variedad de frutas, vegetales, nueces, raíces, tubérculos, e incluso termitas o caracoles.</Dieta>
+        <Especie>Cricetomys gambianus</Especie>
+        <Familia>Nesomyidae</Familia>
+        <Gestacion>30-32 días.</Gestacion>
+        <Habitat>Vive en una gran variedad de hábitats que van de zonas áridas a zonas templadas, en un rango de altitud desde el nivel del mar a los 2000 metros, y en los que necesita algún tipo de refugio para sobrevivir, tales como huecos de árboles, roquedales, o madrigueras hechas por otros animales. Ocasionalmente se aventura en zonas urbanas donde llega a formar plagas.</Habitat>
+        <Nombre>Rata gambiana</Nombre>
+        <Crias>1-5</Crias>
+        <Orden>Rodentia</Orden>
+        <Vida>5-7 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Se alimentan de raíces, bulbos y tubérculos, que son accesibles bajo tierra. En ocasiones viajan grandes distancias para encontrar sus alimentos preferidos, suelen dejar partes de la planta intactas para que continúen creciendo y puedan volver en futuras ocasiones. Una vez encontrada la comida vuelven al nido, donde la almacenan.</Dieta>
+        <Especie>Heterocephalus glaber</Especie>
+        <Familia>Bathyergidae</Familia>
+        <Gestacion>70 días.</Gestacion>
+        <Habitat>Viven en túneles subterráneos que realizan en las sabanas del este de África, sus sistemas de túneles llegan hasta los 2 metros de profundidad y se encuentran en zonas situadas entre los 1100-3000 metros de altitud.</Habitat>
+        <Nombre>Rata topo desnuda</Nombre>
+        <Crias>7</Crias>
+        <Orden>Rodentia</Orden>
+        <Vida>25-30 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Omnívoros y oportunistas, se alimentan de semillas, frutas, plantas secas, arañas, pequeños insectos e incluso caracoles. En poblaciones que viven cerca de los humanos, se alimentan también de grano y comida almacenada.</Dieta>
+        <Especie>Acomys cahirinus</Especie>
+        <Familia>Muridae</Familia>
+        <Gestacion>35-42 días.</Gestacion>
+        <Habitat>Suelen vivir en hábitats áridos y rocosos, como cañones o acantilados, pero también en grietas de edificios humanos, siempre en altitudes por debajo de los 1500 m. También se les encuentra en zonas de gravas erosionadas, pero generalmente nunca en zonas arenosas.</Habitat>
+        <Nombre>Ratón espinoso</Nombre>
+        <Crias>1-5</Crias>
+        <Orden>Rodentia</Orden>
+        <Vida>4 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Omnívoros y oportunistas, se alimentan de semillas, frutas, plantas secas, arañas y pequeños insectos. En poblaciones que viven cerca de los humanos, se alimentan también de grano y comida almacenada.</Dieta>
+        <Especie>Mus minutoides</Especie>
+        <Familia>Muridae</Familia>
+        <Gestacion>20 días.</Gestacion>
+        <Habitat>Suelen vivir en prados y sabanas, en madrigueras familiares que ellos mismos excavan bajo troncos caídos o montones de rocas.</Habitat>
+        <Nombre>Ratón pigmeo africano</Nombre>
+        <Crias>1-6</Crias>
+        <Orden>Rodentia</Orden>
+        <Vida>2 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Pastizales, prefiriendo especies herbáceas de poca altura.</Dieta>
+        <Especie>Ceratotherium simum simum</Especie>
+        <Familia>Rhinocerotidae
+ Dicerotinae</Familia>
+        <Gestacion>480 días.</Gestacion>
+        <Habitat>Por su actividad estrictamente pastadora, su hábitat se restringe a zonas de sabana herbácea con hierbas bajas, acceso a sombra y fuente de agua</Habitat>
+        <Nombre>Rinoceronte blanco sureño</Nombre>
+        <Crias>1</Crias>
+        <Orden>Perissodactyla</Orden>
+        <Vida>40-45 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Ramonea hierbas y follaje a baja altura, las gramíneas constituyen un parte importante de su dieta durante la estación lluviosa.</Dieta>
+        <Especie>Oreotragus oreotragus</Especie>
+        <Familia>Bovidae
+ Antilopinae</Familia>
+        <Gestacion>Alrededor de 210-225 días.</Gestacion>
+        <Habitat>Variado, como por ejemplo, terrenos escarpados, montañas o desfiladeros y cañones de ríos, en todos los casos con el suelo rocoso o pedregoso y con abundante vegetación corta.</Habitat>
+        <Nombre>Saltarrocas</Nombre>
+        <Crias>1</Crias>
+        <Orden>Artiodactyla</Orden>
+        <Vida>12-15 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Mammalia</Clase>
+        <Dieta>Insectívora, especialmente escarabajos, arácnidos y larvas de ciempiés, ocasionalmente también se alimentan de pequeños vertebrados (incluyendo lagartos y pequeñas serpientes), huevos y fruta.</Dieta>
+        <Especie>Suricata suricatta</Especie>
+        <Familia>Herpestidae
+ Mungotinae</Familia>
+        <Gestacion>70-80 días.</Gestacion>
+        <Habitat>Zonas abiertas y semiáridas, a menudo rocosas y praderas. Viven en madrigueras propias o de otros pequeños mamíferos muy extensas con múltiples entradas y cámaras donde la temperatura se mantiene más estable y confortable que en el exterior.</Habitat>
+        <Nombre>Suricata</Nombre>
+        <Crias>3</Crias>
+        <Orden>Carnivora</Orden>
+        <Vida>10 años.</Vida>
+    </Animal>
+    <Animal>
+        <Clase>Aves</Clase>
+        <Dieta>Se alimentan principalmente de fruta, aunque complementan su dieta con insectos.</Dieta>
+        <Especie>Tauraco leucotis</Especie>
+        <Familia>Musophagidae</Familia>
+        <Gestacion>22-23 días.</Gestacion>
+        <Habitat>Vive en bosques de alta montaña, de 2200-3200 m de altitud.</Habitat>
+        <Nombre>Turaco cariblanco</Nombre>
+        <Crias>2</Crias>
+        <Orden>Cuculiformes</Orden>
+        <Vida>10-12 años.</Vida>
+    </Animal>
+</Animales>

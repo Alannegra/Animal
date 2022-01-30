@@ -15,25 +15,22 @@ import jakarta.xml.bind.annotation.XmlRootElement;
         String numeroDeCrias;
         String vida;
 
-        String name;
-        String rol;
-        String historia;
-
         public AnimalXML(String nombre, String especie, String familia, String orden, String clase, String habitat, String dieta, String gestacion, String numeroDeCrias, String vida) {
             this.nombre = nombre;
             this.especie = especie;
             this.familia = familia;
             this.orden = orden;
             this.clase = clase;
+
             this.habitat = habitat;
             this.dieta = dieta;
             this.gestacion = gestacion;
             this.numeroDeCrias = numeroDeCrias;
             this.vida = vida;
 
-            this.name = name;
-            this.rol = rol;
-            this.historia = historia;
+        }
+
+        public AnimalXML() {
         }
 
         public String getNombre() {
@@ -56,6 +53,7 @@ import jakarta.xml.bind.annotation.XmlRootElement;
             return clase;
         }
 
+
         public String getHabitat() {
             return habitat;
         }
@@ -76,17 +74,6 @@ import jakarta.xml.bind.annotation.XmlRootElement;
             return vida;
         }
 
-        public String getName() {
-            return name;
-        }
-
-        public String getRol() {
-            return rol;
-        }
-
-        public String getHistoria() {
-            return historia;
-        }
 
         @XmlElement(name="Nombre")
         public void setNombre(String nombre) {
@@ -103,43 +90,40 @@ import jakarta.xml.bind.annotation.XmlRootElement;
             this.familia = familia;
         }
 
+        @XmlElement(name="Orden")
         public void setOrden(String orden) {
             this.orden = orden;
         }
 
+        @XmlElement(name="Clase")
         public void setClase(String clase) {
             this.clase = clase;
         }
 
+
+        @XmlElement(name="Habitat")
         public void setHabitat(String habitat) {
             this.habitat = habitat;
         }
 
+        @XmlElement(name="Dieta")
         public void setDieta(String dieta) {
             this.dieta = dieta;
         }
 
+        @XmlElement(name="Gestacion")
         public void setGestacion(String gestacion) {
             this.gestacion = gestacion;
         }
 
+        @XmlElement(name="Crias")
         public void setNumeroDeCrias(String numeroDeCrias) {
             this.numeroDeCrias = numeroDeCrias;
         }
 
+        @XmlElement(name="Vida")
         public void setVida(String vida) {
             this.vida = vida;
         }
 
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public void setRol(String rol) {
-            this.rol = rol;
-        }
-
-        public void setHistoria(String historia) {
-            this.historia = historia;
-        }
     }

@@ -1,53 +1,40 @@
 import java.io.File;
-import java.io.StringWriter;
+import java.util.List;
 
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
+
 public class Jaxb {
+        File file = new File("Animal.xml");
+        HabitatYAnimalXML habitatYAnimalXML = new HabitatYAnimalXML();
+        AnimalXML animalXML;
+        JAXBContext jaxbContext;
+        Marshaller jaxbMarshaller;
 
-    File file = new File("lol.xml");
-    HabitatYAnimalXML habitatYAnimalXML = new HabitatYAnimalXML();
-    AnimalXML data;
-    JAXBContext jaxbContext;
-    Marshaller jaxbMarshaller;
 
-    public static void main(String[] args) {
-        //Java object. We will convert it to XML.
-        //Employee employee = new Employee(1, "Lokesh", "Gupta", new Department(101, "IT"));
-        Habitat habitat = new Habitat("Titulo", "Descripcion");
-        //Animal animal = new Animal("Nombre","Especie","Familia","Orden","Clase","Habitat","Dieta","Gestacion","Crias","Vida");
+        Jaxb(List<Animal> animals) {
+            try {
+                jaxbContext = JAXBContext.newInstance(HabitatYAnimalXML.class);
 
-        //Method which uses JAXB to convert object to XML
-        jaxbObjectToXML(habitat);
-    }
+                for (Animal animal : animals) {
+                    animalXML = new AnimalXML(animal.getNombre(),animal.getEspecie(), animal.getFamilia(),animal.getOrden(),animal.getClase(),animal.getHabitat(),animal.getDieta(),animal.getGestacion(),animal.getNumeroDeCrias(),animal.getVida());
+                    habitatYAnimalXML.addAnimalXML(animalXML);
+                }
 
-    private static void jaxbObjectToXML(Habitat habitat)
-    {
-        try
-        {
-            //Create JAXB Context
-            JAXBContext jaxbContext = JAXBContext.newInstance(Habitat.class);
+                jaxbMarshaller = jaxbContext.createMarshaller();
+                jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+                jaxbMarshaller.marshal(habitatYAnimalXML, file);
+//            jaxbMarshaller.marshal(datas, System.out);
 
-            //Create Marshaller
-            Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
-
-            //Required formatting??
-            jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-
-            //Print XML String to Console
-            StringWriter sw = new StringWriter();
-
-            //Write XML to StringWriter
-            jaxbMarshaller.marshal(habitat, sw);
-
-            //Verify XML Content
-            String xmlContent = sw.toString();
-            System.out.println( xmlContent );
-
-        } catch (JAXBException e) {
-            e.printStackTrace();
+            } catch (JAXBException e) {
+                e.printStackTrace();
+            }
         }
     }
-}
