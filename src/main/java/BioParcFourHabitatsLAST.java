@@ -16,6 +16,12 @@ public class BioParcFourHabitatsLAST {
     public static void main(String[] args) throws IOException {
 
         CodeCracker codeCracker = new CodeCracker();
+        List<Animal> animals = new ArrayList<>();
+        List<Habitat> habitats = new ArrayList<>();
+        String  nombre,especie,familia,orden,clase,habitat,dieta,gestacion,numeroDeCrias,vida;
+        Csv csv;
+        Jaxb jaxb;
+
 
         System.out.println(System.getenv("PATH"));
         System.out.println(System.getenv("HOME"));
@@ -31,25 +37,25 @@ public class BioParcFourHabitatsLAST {
         inputButtonNext.click();
 
         //----------
-        List<WebElement> habitats = new ArrayList<>();
-        List<String> enlacesHabitats = new ArrayList<>();
-        List<WebElement> elements = new ArrayList<>();
-        List<String> enlaces = new ArrayList<>();
+        List<WebElement> habitatsBoxes = new ArrayList<>();
+        List<String> habitatsLinks = new ArrayList<>();
+        List<WebElement> animalsBoxes = new ArrayList<>();
+        List<String> animalsLinks = new ArrayList<>();
+        List<WebElement> animalsInfos = new ArrayList<>();
+        List<WebElement> animalsDescriptionsButtons = new ArrayList<>();
+        List<WebElement> animalsDescriptions = new ArrayList<>();
 
-        List<WebElement> crs = new ArrayList<>();
-        List<WebElement> extras = new ArrayList<>();
-        List<WebElement> clases = new ArrayList<>();
 
-        habitats = driver.findElements(new By.ByClassName("boxed"));
+        habitatsBoxes = driver.findElements(new By.ByClassName("boxed"));
 
-        for (WebElement habitat: habitats) {
+        for (WebElement habitatBox: habitatsBoxes) {
 
-            enlacesHabitats.add(habitat.findElement(new By.ByTagName("a")).getAttribute("href"));
+            habitatsLinks.add(habitatBox.findElement(new By.ByTagName("a")).getAttribute("href"));
 
-            String habitatTiulo = habitat.findElement(new By.ByClassName("box-text--titulo")).getText();
+            String habitatTiulo = habitatBox.findElement(new By.ByClassName("box-text--titulo")).getText();
             //String habitatDescripcion = habitat.findElement(new By.ByClassName("box-text--content")).getText();
 
-            WebElement habitatDescripcionTotal = habitat.findElement(new By.ByClassName("box-text--content"));
+            WebElement habitatDescripcionTotal = habitatBox.findElement(new By.ByClassName("box-text--content"));
 
             String habitatDescripcion = habitatDescripcionTotal.findElement(new By.ByTagName("p")).getText();
 
@@ -57,42 +63,67 @@ public class BioParcFourHabitatsLAST {
             fw.write(habitatDescripcion);
             System.out.println(habitatTiulo);
             System.out.println(habitatDescripcion);
-
+            habitats.add(new Habitat(habitatTiulo,habitatDescripcion));
         }
+        csv = new Csv(habitats);
 
-        for (String enlaceHabitat: enlacesHabitats) {
-            if (enlaceHabitat != null) driver.navigate().to(enlaceHabitat);
+        for (String habitatLink: habitatsLinks) {
+            if (habitatLink != null) driver.navigate().to(habitatLink);
 
-            elements = driver.findElements(new By.ByClassName("habitat-box--ficha"));
+            animalsBoxes = driver.findElements(new By.ByClassName("habitat-box--ficha"));
 
-            for (WebElement element: elements) {
-                enlaces.add(element.getAttribute("href"));
+            for (WebElement animalBox: animalsBoxes) {
+                animalsLinks.add(animalBox.getAttribute("href"));
             }
 
         //----------
 
-        for (String enlace: enlaces) {
-            driver.navigate().to(enlace);
-            extras = driver.findElements(new By.ByClassName("vc_tta-panel-body"));
-            crs = driver.findElements(new By.ByClassName("vc_tta-tab"));
-            clases = driver.findElements(new By.ByClassName("box-ficha-animal--caracteristica"));
+        for (String animalLink: animalsLinks) {
+            driver.navigate().to(animalLink);
+            animalsDescriptions = driver.findElements(new By.ByClassName("vc_tta-panel-body"));
+            animalsDescriptionsButtons = driver.findElements(new By.ByClassName("vc_tta-tab"));
+            animalsInfos = driver.findElements(new By.ByClassName("box-ficha-animal--caracteristica"));
 
-            for ( WebElement clase : clases) {
-                String r = clase.findElement(new By.ByClassName("box-ficha-animal--title")).getText();
-                String part1 = codeCracker.recorte(clase.getText(),r);
+            int contador = 0;
+            for (WebElement animalInfo : animalsInfos) {
+                String r = animalInfo.findElement(new By.ByClassName("box-ficha-animal--title")).getText();
+                String part1 = codeCracker.recorte(animalInfo.getText(),r);
                 System.out.print(part1);
                 fw.write(part1);
+
+                switch (contador) {
+                    case 1:  contador = 0;
+                        break;
+                    case 2:  contador = 1;
+                        break;
+                    case 3:  contador = 2;
+                        break;
+                    case 4:  contador = 3;
+                        break;
+                    case 5:  contador = 4;
+                        break;
+                    case 6:  contador = 5;
+                        break;
+                    case 7:  contador = 6;
+                        break;
+                    default: contador = 10;
+                        break;
+                }
+                contador++;
+
             }
 
-            for (WebElement cr : crs) {
-                cr.click();
-                for (WebElement extra : extras) {
-                    if(!extra.getText().isEmpty()){
-                        fw.write(extra.getText() + " ");
-                        System.out.println(extra.getText());
+            for (WebElement animalDescriptionButton : animalsDescriptionsButtons) {
+                animalDescriptionButton.click();
+                for (WebElement animalDescription : animalsDescriptions) {
+                    if(!animalDescription.getText().isEmpty()){
+                        fw.write(animalDescription.getText() + " ");
+                        System.out.println(animalDescription.getText());
                     }
                 }
             }
+
+            //animals.add();
             fw.write("\n");
         }
 
@@ -100,6 +131,7 @@ public class BioParcFourHabitatsLAST {
 
         fw.close();
         driver.close();
+        //jaxb = new JAXB(champions);
 
     }
 
