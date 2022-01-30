@@ -5,8 +5,14 @@ import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.JAXBException;
 import jakarta.xml.bind.Marshaller;
 
-public class Jaxb
-{
+public class Jaxb {
+
+    File file = new File("lol.xml");
+    HabitatYAnimalXML habitatYAnimalXML = new HabitatYAnimalXML();
+    AnimalXML data;
+    JAXBContext jaxbContext;
+    Marshaller jaxbMarshaller;
+
     public static void main(String[] args) {
         //Java object. We will convert it to XML.
         //Employee employee = new Employee(1, "Lokesh", "Gupta", new Department(101, "IT"));
