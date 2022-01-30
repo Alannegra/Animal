@@ -20,6 +20,7 @@ public class BioParcFourHabitatsLAST {
         List<Habitat> habitats = new ArrayList<>();
         String  nombre,especie,familia,orden,clase,habitat,dieta,gestacion,numeroDeCrias,vida;
         Csv csv;
+        CsvAnimal csvAnimal;
         Jaxb jaxb;
 
 
@@ -65,7 +66,7 @@ public class BioParcFourHabitatsLAST {
             System.out.println(habitatDescripcion);
             habitats.add(new Habitat(habitatTiulo,habitatDescripcion));
         }
-        csv = new Csv(habitats);
+
 
         for (String habitatLink: habitatsLinks) {
             if (habitatLink != null) driver.navigate().to(habitatLink);
@@ -84,53 +85,101 @@ public class BioParcFourHabitatsLAST {
             animalsDescriptionsButtons = driver.findElements(new By.ByClassName("vc_tta-tab"));
             animalsInfos = driver.findElements(new By.ByClassName("box-ficha-animal--caracteristica"));
 
+            int id = 0;
             int contador = 0;
+
+            animals.add(new Animal());
+
             for (WebElement animalInfo : animalsInfos) {
-                String r = animalInfo.findElement(new By.ByClassName("box-ficha-animal--title")).getText();
-                String part1 = codeCracker.recorte(animalInfo.getText(),r);
-                System.out.print(part1);
-                fw.write(part1);
+                String tituloDelete = animalInfo.findElement(new By.ByClassName("box-ficha-animal--title")).getText();
+                String respuesta = codeCracker.recorte(animalInfo.getText(),tituloDelete);
+                System.out.print(respuesta);
+                fw.write(respuesta);
 
                 switch (contador) {
-                    case 1:  contador = 0;
+                    case 0:
+                        animals.get(id).setNombre(respuesta.trim());
                         break;
-                    case 2:  contador = 1;
+                    case 1:
+                        animals.get(id).setEspecie(respuesta.trim());
                         break;
-                    case 3:  contador = 2;
+                    case 2:
+                        animals.get(id).setFamilia(respuesta.trim());
                         break;
-                    case 4:  contador = 3;
+                    case 3:
+                        animals.get(id).setOrden(respuesta.trim());
                         break;
-                    case 5:  contador = 4;
-                        break;
-                    case 6:  contador = 5;
-                        break;
-                    case 7:  contador = 6;
+                    case 4:
+                        animals.get(id).setClase(respuesta.trim());
                         break;
                     default: contador = 10;
                         break;
                 }
+
                 contador++;
 
+
             }
+            contador = 0;
 
             for (WebElement animalDescriptionButton : animalsDescriptionsButtons) {
                 animalDescriptionButton.click();
                 for (WebElement animalDescription : animalsDescriptions) {
+
                     if(!animalDescription.getText().isEmpty()){
-                        fw.write(animalDescription.getText() + " ");
-                        System.out.println(animalDescription.getText());
+                        String respuesta = animalDescription.getText();
+                        fw.write(respuesta + " ");
+                        //System.out.println(respuesta);
+                    switch (contador) {
+                        case 0:
+                            animals.get(id).setHabitat(respuesta);
+                            System.out.println(respuesta);
+                            break;
+                        case 1:
+                            animals.get(id).setDieta(respuesta);
+                            System.out.println(respuesta);
+                            break;
+                        case 2:
+                            animals.get(id).setGestacion(respuesta);
+                            System.out.println(respuesta);
+                            break;
+                        case 3:
+                            animals.get(id).setNumeroDeCrias(respuesta);
+                            System.out.println(respuesta);
+                            break;
+                        case 4:
+                            animals.get(id).setVida(respuesta);
+                            System.out.println(respuesta);
+                            break;
+                        default: contador = 10;
+                            break;
+                    }
+                    contador++;
                     }
                 }
+
             }
 
             //animals.add();
             fw.write("\n");
+            id++;
+
         }
+            //XXXXXXXXXXXXXXXXX
+            //XXXXXXXXXXXXXXXXX
+            //XXXXXXXXXXXXXXXXX
+            break;
+            //XXXXXXXXXXXXXXXXX
+            // XXXXXXXXXXXXXXXXX
+            //XXXXXXXXXXXXXXXXX
 
         }
 
         fw.close();
         driver.close();
+
+        csv = new Csv(habitats);
+        csvAnimal = new CsvAnimal(animals);
         //jaxb = new JAXB(champions);
 
     }

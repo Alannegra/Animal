@@ -11,7 +11,7 @@ public class Jaxb
         //Java object. We will convert it to XML.
         //Employee employee = new Employee(1, "Lokesh", "Gupta", new Department(101, "IT"));
         Habitat habitat = new Habitat("Titulo", "Descripcion");
-        Animal animal = new Animal("Nombre","Especie","Familia","Orden","Clase","Habitat","Dieta","Gestacion","Crias","Vida");
+        //Animal animal = new Animal("Nombre","Especie","Familia","Orden","Clase","Habitat","Dieta","Gestacion","Crias","Vida");
 
         //Method which uses JAXB to convert object to XML
         jaxbObjectToXML(habitat);

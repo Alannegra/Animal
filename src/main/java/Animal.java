@@ -12,19 +12,6 @@ public class Animal {
     String numeroDeCrias;
     String vida;
 
-    public Animal(String nombre, String especie, String familia, String orden, String clase, String habitat, String dieta, String gestacion, String numeroDeCrias, String vida) {
-        this.nombre = nombre;
-        this.especie = especie;
-        this.familia = familia;
-        this.orden = orden;
-        this.clase = clase;
-        this.habitat = habitat;
-        this.dieta = dieta;
-        this.gestacion = gestacion;
-        this.numeroDeCrias = numeroDeCrias;
-        this.vida = vida;
-    }
-
     public String getNombre() {
         return nombre;
     }
