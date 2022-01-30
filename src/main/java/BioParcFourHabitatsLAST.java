@@ -1,4 +1,3 @@
-import jakarta.xml.bind.JAXB;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -19,6 +18,8 @@ public class BioParcFourHabitatsLAST {
         CodeCracker codeCracker = new CodeCracker();
         List<Animal> animals = new ArrayList<>();
         List<Habitat> habitats = new ArrayList<>();
+        List<HabitatWith> habitatWiths = new ArrayList<>();
+
         String  nombre,especie,familia,orden,clase,habitat,dieta,gestacion,numeroDeCrias,vida;
         Csv csv;
         CsvAnimal csvAnimal;
@@ -50,6 +51,7 @@ public class BioParcFourHabitatsLAST {
 
         habitatsBoxes = driver.findElements(new By.ByClassName("boxed"));
 
+        int idH = 0;
         for (WebElement habitatBox: habitatsBoxes) {
 
             habitatsLinks.add(habitatBox.findElement(new By.ByTagName("a")).getAttribute("href"));
@@ -66,6 +68,7 @@ public class BioParcFourHabitatsLAST {
             System.out.println(habitatTiulo);
             System.out.println(habitatDescripcion);
             habitats.add(new Habitat(habitatTiulo,habitatDescripcion));
+            habitatWiths.add(new HabitatWith(habitatTiulo,habitatDescripcion, null));
         }
 
 
@@ -176,7 +179,12 @@ public class BioParcFourHabitatsLAST {
             fw.write("\n");
             id++;
             break;
+
         }
+
+        habitatWiths.get(idH).setAnimalList(animals);
+        idH++;
+
             //XXXXXXXXXXXXXXXXX
             //XXXXXXXXXXXXXXXXX
             //XXXXXXXXXXXXXXXXX
@@ -192,7 +200,7 @@ public class BioParcFourHabitatsLAST {
 
         csv = new Csv(habitats);
         csvAnimal = new CsvAnimal(animals);
-        jaxb = new Jaxb(habitats,animals);
+        jaxb = new Jaxb(habitatWiths);
 
     }
 

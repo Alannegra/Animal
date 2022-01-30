@@ -1,20 +1,23 @@
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
-    @XmlRootElement(name="Habitat")
+import java.util.ArrayList;
+import java.util.List;
+
+@XmlRootElement(name="Habitat")
     public class HabitatXML {
         String titulo;
         String subtitulo;
+        AnimalsXML animalsXML;
 
 
+    public HabitatXML(String titulo, String subtitulo, AnimalsXML animalsXML) {
+        this.titulo = titulo;
+        this.subtitulo = subtitulo;
+        this.animalsXML = animalsXML;
+    }
 
-        public HabitatXML(String titulo, String subtitulo) {
-            this.titulo = titulo;
-            this.subtitulo = subtitulo;
-        }
-
-        public HabitatXML() {
-        }
+    public HabitatXML() {}
 
         public String getTitulo() {
             return titulo;
@@ -22,6 +25,10 @@ import jakarta.xml.bind.annotation.XmlRootElement;
 
         public String getSubtitulo() {
             return subtitulo;
+        }
+
+        public AnimalsXML getAnimalsXML() {
+            return animalsXML;
         }
 
         @XmlElement(name="Titulo")
@@ -33,6 +40,11 @@ import jakarta.xml.bind.annotation.XmlRootElement;
         public void setSubtitulo(String subtitulo) {
             this.subtitulo = subtitulo;
         }
-    }
+
+        @XmlElement(name="Animals")
+        public void setAnimalsXML(AnimalsXML animalsXML) {
+            this.animalsXML = animalsXML;
+        }
+}
 
 

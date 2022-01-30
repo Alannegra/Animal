@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Habitats>
+    <Habitat>
+        <Animals>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+        </Animals>
+        <Subtitulo>La sabana reúne la mayor concentración de grandes herbívoros del planeta y sus extensas planicies son el escenario de largas migraciones en busca de agua y alimento vinculadas al transcurrir de las dos estaciones de este bioma: la estación seca y la estación húmeda.</Subtitulo>
+        <Titulo>SABANA AFRICANA</Titulo>
+    </Habitat>
+    <Habitat>
+        <Animals>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+        </Animals>
+        <Subtitulo>Los bosques lluviosos primarios de África ecuatorial albergan un gran número de ecosistemas y hábitats diferentes, pudiendo observar el contraste entre la vida en las bóvedas arbóreas y la bulliciosa actividad que tiene lugar en el suelo del bosque.</Subtitulo>
+        <Titulo>BOSQUE ECUATORIAL</Titulo>
+    </Habitat>
+    <Habitat>
+        <Animals>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+        </Animals>
+        <Subtitulo>La cueva de Kitum se adentra unos 200 metros en el interior del Monte Elgon, en el Parque Nacional del Monte Elgon, en Kenia. Ella y sus vecinas son las únicas cuevas conocidas formadas por rocas volcánicas piroclásticas, cuya modificación a lo largo del tiempo ha dado lugar a la formación de sales minerales.</Subtitulo>
+        <Titulo>HUMEDALES AFRICANOS: LA CUEVA DE KITUM</Titulo>
+    </Habitat>
+    <Habitat>
+        <Animals>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+            <Animal>
+                <Clase>Aves</Clase>
+                <Dieta>Omnívora a base de semillas, insectos, pequeños mamíferos y pequeños reptiles, cangrejos e incluso ranas.</Dieta>
+                <Especie>Burhinus capensis</Especie>
+                <Familia>Burhinidae</Familia>
+                <Gestacion>26-27 días.</Gestacion>
+                <Habitat>Vive en ambientes de sabana, en zonas herbáceas, semidesérticas o rocosas, cerca de lechos de los ríos, también se le encuentra en zonas urbanas.</Habitat>
+                <Nombre>Alcaraván del Cabo</Nombre>
+                <Crias>1-3</Crias>
+                <Orden>Charadriiformes</Orden>
+                <Vida>Alrededor de 15 años.</Vida>
+            </Animal>
+        </Animals>
+        <Subtitulo>La fauna y flora de esta isla del océano Índico, separada del continente africano hace 160 millones de años, ha evolucionado aislada, de forma que el 80% de sus especies son endémicas, lo que implica que sólo se encuentran en este punto del planeta.</Subtitulo>
+        <Titulo>ISLA DE MADAGASCAR</Titulo>
+    </Habitat>
+</Habitats>

@@ -12,27 +12,37 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Jaxb {
-        File file = new File("Habitat.xml");
+        File file = new File("HabitatWith.xml");
+
         HabitatYAnimalXML habitatYAnimalXML = new HabitatYAnimalXML();
         HabitatXML habitatXML;
-        AnimalXML animalXML;
 
         JAXBContext jaxbContext;
         Marshaller jaxbMarshaller;
+        AnimalsXML animalsXML;
+        AnimalXML animalXML;
 
+        Jaxb(List<HabitatWith> habitatWiths) {
 
-        Jaxb(List<Habitat> habitats,List<Animal> animals) {
+            System.out.println("MIRA AQUI " + habitatWiths.get(0).animalList.get(0).getNombre() + " MIRA AQUI");
+
             try {
                 jaxbContext = JAXBContext.newInstance(HabitatYAnimalXML.class);
 
-                for (Habitat habitat : habitats) {
-                    habitatXML = new HabitatXML(habitat.getTitulo(), habitat.getSubtitulo());
-                    habitatYAnimalXML.addHabitatXML(habitatXML);
-                    for (Animal animal : animals) {
-                        animalXML = new AnimalXML(animal.getNombre(), animal.getEspecie(), animal.getFamilia(), animal.getOrden(), animal.getClase(), animal.getHabitat(), animal.getDieta(), animal.getGestacion(), animal.getNumeroDeCrias(), animal.getVida());
-                        habitatYAnimalXML.addAnimalXML(animalXML);
+                List<AnimalXML> animalXMLList = new ArrayList<>();
+                animalsXML = new AnimalsXML();
 
+                for (HabitatWith habitatWith : habitatWiths) {
+                    int contador = 0;
+                    for (Animal animal: habitatWiths.get(contador).getAnimalList()) {
+                        animalXMLList.add(new AnimalXML(animal.getNombre(), animal.getEspecie(), animal.getFamilia(), animal.getOrden(), animal.getClase(), animal.getHabitat(), animal.getDieta(), animal.getGestacion(), animal.getNumeroDeCrias(), animal.getVida()));
+                    contador++;
                     }
+                    for (AnimalXML a: animalXMLList) {
+                        animalsXML.addAnimalXML(a);
+                    }
+                    habitatXML = new HabitatXML(habitatWith.getTitulo(), habitatWith.getSubtitulo(), animalsXML);
+                    habitatYAnimalXML.addHabitatXML(habitatXML);
                 }
 
 
