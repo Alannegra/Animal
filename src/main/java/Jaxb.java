@@ -12,21 +12,29 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Jaxb {
-        File file = new File("Animal.xml");
+        File file = new File("Habitat.xml");
         HabitatYAnimalXML habitatYAnimalXML = new HabitatYAnimalXML();
+        HabitatXML habitatXML;
         AnimalXML animalXML;
+
         JAXBContext jaxbContext;
         Marshaller jaxbMarshaller;
 
 
-        Jaxb(List<Animal> animals) {
+        Jaxb(List<Habitat> habitats,List<Animal> animals) {
             try {
                 jaxbContext = JAXBContext.newInstance(HabitatYAnimalXML.class);
 
-                for (Animal animal : animals) {
-                    animalXML = new AnimalXML(animal.getNombre(),animal.getEspecie(), animal.getFamilia(),animal.getOrden(),animal.getClase(),animal.getHabitat(),animal.getDieta(),animal.getGestacion(),animal.getNumeroDeCrias(),animal.getVida());
-                    habitatYAnimalXML.addAnimalXML(animalXML);
+                for (Habitat habitat : habitats) {
+                    habitatXML = new HabitatXML(habitat.getTitulo(), habitat.getSubtitulo());
+                    habitatYAnimalXML.addHabitatXML(habitatXML);
+                    for (Animal animal : animals) {
+                        animalXML = new AnimalXML(animal.getNombre(), animal.getEspecie(), animal.getFamilia(), animal.getOrden(), animal.getClase(), animal.getHabitat(), animal.getDieta(), animal.getGestacion(), animal.getNumeroDeCrias(), animal.getVida());
+                        habitatYAnimalXML.addAnimalXML(animalXML);
+
+                    }
                 }
+
 
                 jaxbMarshaller = jaxbContext.createMarshaller();
                 jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);

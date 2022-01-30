@@ -175,7 +175,7 @@ public class BioParcFourHabitatsLAST {
             //animals.add();
             fw.write("\n");
             id++;
-
+            break;
         }
             //XXXXXXXXXXXXXXXXX
             //XXXXXXXXXXXXXXXXX
@@ -192,7 +192,7 @@ public class BioParcFourHabitatsLAST {
 
         csv = new Csv(habitats);
         csvAnimal = new CsvAnimal(animals);
-        jaxb = new Jaxb(animals);
+        jaxb = new Jaxb(habitats,animals);
 
     }
 
