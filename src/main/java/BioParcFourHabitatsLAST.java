@@ -30,6 +30,8 @@ public class BioParcFourHabitatsLAST {
         System.out.println(System.getenv("HOME"));
         System.setProperty("webdriver.gecko.driver", "src/main/resources/geckodriver");
         FirefoxOptions options = new FirefoxOptions();
+        //no window
+        options.setHeadless(true);
         WebDriver driver = new FirefoxDriver(options);
 
         driver.get("https://www.bioparcvalencia.es/animales/habitats");
@@ -50,10 +52,7 @@ public class BioParcFourHabitatsLAST {
         habitatsBoxes = driver.findElements(new By.ByClassName("boxed"));
 
         int idH = 0;
-        int por = 0;
         for (WebElement habitatBox: habitatsBoxes) {
-            System.out.println(por);
-            por++;
             habitatsLinks.add(habitatBox.findElement(new By.ByTagName("a")).getAttribute("href"));
             System.out.println(habitatBox.findElement(new By.ByTagName("a")).getAttribute("href"));
             String habitatTiulo = habitatBox.findElement(new By.ByClassName("box-text--titulo")).getText();
@@ -81,7 +80,14 @@ public class BioParcFourHabitatsLAST {
 
         //----------
             int id = 0;
+            int i = 0;
+
         for (String animalLink: animalsLinks) {
+            /*if(i > 2) {
+                break;
+            }
+            i++;*/
+
             driver.navigate().to(animalLink);
             animalsDescriptions = driver.findElements(new By.ByClassName("vc_tta-panel-body"));
             animalsDescriptionsButtons = driver.findElements(new By.ByClassName("vc_tta-tab"));
@@ -89,7 +95,10 @@ public class BioParcFourHabitatsLAST {
 
             int contador = 0;
 
-            animals.add(new Animal());
+
+                animals.add(new Animal());
+
+
 
             for (WebElement animalInfo : animalsInfos) {
                 String tituloDelete = animalInfo.findElement(new By.ByClassName("box-ficha-animal--title")).getText();
@@ -139,7 +148,7 @@ public class BioParcFourHabitatsLAST {
                             switch (contador) {
                                 case 0:
                                     animals.get(id).setHabitat(respuesta);
-                                    System.out.println(respuesta + "habitat");
+                                    System.out.println(respuesta + "Habitat");
                                     break;
                                 case 1:
                                     animals.get(id).setDieta(respuesta);
@@ -158,7 +167,6 @@ public class BioParcFourHabitatsLAST {
                                     System.out.println(respuesta + "Vida");
                                     break;
                                 default:
-                                    ;
                                     break;
                             }
 
@@ -187,6 +195,11 @@ public class BioParcFourHabitatsLAST {
         }
 
         driver.close();
+
+        System.out.println(animals.size());
+        for (int i = 0; i < animals.size(); i++) {
+            System.out.println(animals.get(i).getNombre());
+        }
 
         csv = new Csv(habitats);
         csvAnimal = new CsvAnimal(animals);

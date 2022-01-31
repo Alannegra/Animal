@@ -12,15 +12,15 @@ public class Csv {
         File file = new File("Habitat.csv");
         CSVWriter csvWriter;
         String[] head = {"Titulo","Subtitulo"};
-        List<String[]> data = new ArrayList<>();
+        List<String[]> text = new ArrayList<>();
 
         for (Habitat habitat: habitats){
-            data.add(new String[] {habitat.titulo,habitat.subtitulo});
+            text.add(new String[] {habitat.titulo,habitat.subtitulo});
         }
         try {
             csvWriter = new CSVWriter(new FileWriter(file));
             csvWriter.writeNext(head);
-            csvWriter.writeAll(data);
+            csvWriter.writeAll(text);
             csvWriter.close();
         } catch (IOException e) {
             e.printStackTrace();

@@ -34,8 +34,9 @@ public class Jaxb {
                 int contador = 0;
                 for (HabitatWith habitatWith : habitatWiths) {
                     for (Animal animal: habitatWiths.get(contador).getAnimalList()) {
-                        animalXMLList.add(new AnimalXML(animal.getNombre(), animal.getEspecie(), animal.getFamilia(), animal.getOrden(), animal.getClase(), animal.getHabitat(), animal.getDieta(), animal.getGestacion(), animal.getNumeroDeCrias(), animal.getVida()));
-
+                        if(animal.getNombre()!=null) {
+                            animalXMLList.add(new AnimalXML(animal.getNombre(), animal.getEspecie(), animal.getFamilia(), animal.getOrden(), animal.getClase(), animal.getHabitat(), animal.getDieta(), animal.getGestacion(), animal.getNumeroDeCrias(), animal.getVida()));
+                        }
                     }
                     contador++;
                     for (AnimalXML a: animalXMLList) {
