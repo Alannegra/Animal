@@ -33,8 +33,7 @@ public class BioParcFourHabitatsLAST {
         WebDriver driver = new FirefoxDriver(options);
 
         driver.get("https://www.bioparcvalencia.es/animales/habitats");
-        File file = new File("HabitatAnimal.txt");
-        FileWriter fw = new FileWriter(file);
+
 
         WebElement inputButtonNext = driver.findElement(new By.ById("pdcc-modal-accept"));
         inputButtonNext.click();
@@ -48,14 +47,15 @@ public class BioParcFourHabitatsLAST {
         List<WebElement> animalsDescriptionsButtons = new ArrayList<>();
         List<WebElement> animalsDescriptions = new ArrayList<>();
 
-
         habitatsBoxes = driver.findElements(new By.ByClassName("boxed"));
 
         int idH = 0;
+        int por = 0;
         for (WebElement habitatBox: habitatsBoxes) {
-
+            System.out.println(por);
+            por++;
             habitatsLinks.add(habitatBox.findElement(new By.ByTagName("a")).getAttribute("href"));
-
+            System.out.println(habitatBox.findElement(new By.ByTagName("a")).getAttribute("href"));
             String habitatTiulo = habitatBox.findElement(new By.ByClassName("box-text--titulo")).getText();
             //String habitatDescripcion = habitat.findElement(new By.ByClassName("box-text--content")).getText();
 
@@ -63,8 +63,6 @@ public class BioParcFourHabitatsLAST {
 
             String habitatDescripcion = habitatDescripcionTotal.findElement(new By.ByTagName("p")).getText();
 
-            fw.write(habitatTiulo);
-            fw.write(habitatDescripcion);
             System.out.println(habitatTiulo);
             System.out.println(habitatDescripcion);
             habitats.add(new Habitat(habitatTiulo,habitatDescripcion));
@@ -97,7 +95,6 @@ public class BioParcFourHabitatsLAST {
                 String tituloDelete = animalInfo.findElement(new By.ByClassName("box-ficha-animal--title")).getText();
                 String respuesta = codeCracker.recorte(animalInfo.getText(),tituloDelete);
                 //System.out.print(respuesta);
-                fw.write(respuesta);
 
                 switch (contador) {
                     case 0:
@@ -134,7 +131,6 @@ public class BioParcFourHabitatsLAST {
 
                     if(!animalDescription.getText().isEmpty()){
                         String respuesta = animalDescription.getText();
-                        fw.write(respuesta + " ");
                         //System.out.println(respuesta);
 
                         if(respuesta.isEmpty()){
@@ -169,33 +165,27 @@ public class BioParcFourHabitatsLAST {
                             contador++;
                         }
 
-
                     }
                 }
 
             }
 
             //animals.add();
-            fw.write("\n");
             id++;
-            break;
 
         }
 
         habitatWiths.get(idH).setAnimalList(animals);
         idH++;
+            //XXXXXXXXXXXXXXXXX
+            //XXXXXXXXXXXXXXXXX
+            //XXXXXXXXXXXXXXXXX
 
-            //XXXXXXXXXXXXXXXXX
-            //XXXXXXXXXXXXXXXXX
-            //XXXXXXXXXXXXXXXXX
-            break;
             //XXXXXXXXXXXXXXXXX
             // XXXXXXXXXXXXXXXXX
             //XXXXXXXXXXXXXXXXX
-
         }
 
-        fw.close();
         driver.close();
 
         csv = new Csv(habitats);

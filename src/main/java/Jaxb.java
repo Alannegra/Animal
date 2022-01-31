@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Jaxb {
-        File file = new File("HabitatWith.xml");
+        File file = new File("BioParc.xml");
 
         HabitatYAnimalXML habitatYAnimalXML = new HabitatYAnimalXML();
         HabitatXML habitatXML;
@@ -24,20 +24,20 @@ public class Jaxb {
 
         Jaxb(List<HabitatWith> habitatWiths) {
 
-            System.out.println("MIRA AQUI " + habitatWiths.get(0).animalList.get(0).getNombre() + " MIRA AQUI");
+            //System.out.println("MIRA AQUI " + habitatWiths.get(0).animalList.get(0).getNombre() + " MIRA AQUI");
 
             try {
                 jaxbContext = JAXBContext.newInstance(HabitatYAnimalXML.class);
 
                 List<AnimalXML> animalXMLList = new ArrayList<>();
                 animalsXML = new AnimalsXML();
-
+                int contador = 0;
                 for (HabitatWith habitatWith : habitatWiths) {
-                    int contador = 0;
                     for (Animal animal: habitatWiths.get(contador).getAnimalList()) {
                         animalXMLList.add(new AnimalXML(animal.getNombre(), animal.getEspecie(), animal.getFamilia(), animal.getOrden(), animal.getClase(), animal.getHabitat(), animal.getDieta(), animal.getGestacion(), animal.getNumeroDeCrias(), animal.getVida()));
-                    contador++;
+
                     }
+                    contador++;
                     for (AnimalXML a: animalXMLList) {
                         animalsXML.addAnimalXML(a);
                     }

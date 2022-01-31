@@ -8,7 +8,7 @@ import java.util.List;
 
 public class CsvAnimal {
     public CsvAnimal(List<Animal> animals){
-        File file = new File("Animal.csv");
+        File file = new File("Animal2.csv");
         CSVWriter csvWriter;
         String[] head = {"Nombre","Especie","Familia","Orden","Clase","Habitat","Dieta","Gestacion","Numero de crias","Vida"};
         List<String[]> text = new ArrayList<>();
