@@ -6,10 +6,17 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Csv {
+/**
+ * Clase CsvHabitat: Tiene el objetivo de crear un documento csv con todas las zonas/habitats scrapeadas previamente.
+ */
+public class CsvHabitat {
 
-    public Csv(List<Habitat> habitats) {
-        File file = new File("Habitat.csv");
+    /**
+     * Constructor para crear el CsvHabitat.
+     * @param habitats Lista de zonas/habitats
+     */
+    public CsvHabitat(List<Habitat> habitats) {
+        File file = new File("Zona.csv");
         CSVWriter csvWriter;
         String[] head = {"Titulo","Subtitulo"};
         List<String[]> text = new ArrayList<>();

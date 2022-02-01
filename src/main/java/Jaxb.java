@@ -11,8 +11,11 @@ import java.io.FileReader;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase HabitatWith: Tiene el objetivo de crear un documento xml con todas las zonas y sus animales.
+ */
 public class Jaxb {
-        File file = new File("BioParc.xml");
+        File file = new File("Zona&Animal.xml");
 
         HabitatYAnimalXML habitatYAnimalXML = new HabitatYAnimalXML();
         HabitatXML habitatXML;
@@ -22,9 +25,11 @@ public class Jaxb {
         AnimalsXML animalsXML;
         AnimalXML animalXML;
 
+    /**
+     * Constructor para crear el xml.
+     * @param habitatWiths Lista de zonas con sus animales
+     */
         Jaxb(List<HabitatWith> habitatWiths) {
-
-            //System.out.println("MIRA AQUI " + habitatWiths.get(0).animalList.get(0).getNombre() + " MIRA AQUI");
 
             try {
                 jaxbContext = JAXBContext.newInstance(HabitatYAnimalXML.class);

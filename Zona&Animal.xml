@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<Habitats>
-    <Habitat>
+<Zonas>
+    <Zona>
         <Animals>
             <Animal>
                 <Clase>Aves</Clase>
@@ -543,9 +543,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -1538,9 +1538,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -2533,9 +2533,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -3528,9 +3528,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -4523,9 +4523,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -5518,9 +5518,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -6513,9 +6513,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -7508,9 +7508,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -8503,9 +8503,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -9498,9 +9498,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -9953,10 +9953,10 @@ Panthera pardus kotiya</Especie>
                 <Vida>18-20 años en naturaleza, hasta 25 años en cautividad.</Vida>
             </Animal>
         </Animals>
-        <Subtitulo>La sabana reúne la mayor concentración de grandes herbívoros del planeta y sus extensas planicies son el escenario de largas migraciones en busca de agua y alimento vinculadas al transcurrir de las dos estaciones de este bioma: la estación seca y la estación húmeda.</Subtitulo>
-        <Titulo>SABANA AFRICANA</Titulo>
-    </Habitat>
-    <Habitat>
+        <Descripcion>La sabana reúne la mayor concentración de grandes herbívoros del planeta y sus extensas planicies son el escenario de largas migraciones en busca de agua y alimento vinculadas al transcurrir de las dos estaciones de este bioma: la estación seca y la estación húmeda.</Descripcion>
+        <Nombre>SABANA AFRICANA</Nombre>
+    </Zona>
+    <Zona>
         <Animals>
             <Animal>
                 <Clase>Aves</Clase>
@@ -10499,9 +10499,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -11494,9 +11494,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -12489,9 +12489,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -13484,9 +13484,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -14479,9 +14479,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -15474,9 +15474,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -16469,9 +16469,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -17464,9 +17464,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -18459,9 +18459,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -19454,9 +19454,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -19909,10 +19909,10 @@ Panthera pardus kotiya</Especie>
                 <Vida>18-20 años en naturaleza, hasta 25 años en cautividad.</Vida>
             </Animal>
         </Animals>
-        <Subtitulo>Los bosques lluviosos primarios de África ecuatorial albergan un gran número de ecosistemas y hábitats diferentes, pudiendo observar el contraste entre la vida en las bóvedas arbóreas y la bulliciosa actividad que tiene lugar en el suelo del bosque.</Subtitulo>
-        <Titulo>BOSQUE ECUATORIAL</Titulo>
-    </Habitat>
-    <Habitat>
+        <Descripcion>Los bosques lluviosos primarios de África ecuatorial albergan un gran número de ecosistemas y hábitats diferentes, pudiendo observar el contraste entre la vida en las bóvedas arbóreas y la bulliciosa actividad que tiene lugar en el suelo del bosque.</Descripcion>
+        <Nombre>BOSQUE ECUATORIAL</Nombre>
+    </Zona>
+    <Zona>
         <Animals>
             <Animal>
                 <Clase>Aves</Clase>
@@ -20455,9 +20455,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -21450,9 +21450,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -22445,9 +22445,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -23440,9 +23440,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -24435,9 +24435,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -25430,9 +25430,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -26425,9 +26425,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -27420,9 +27420,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -28415,9 +28415,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -29410,9 +29410,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -29865,10 +29865,10 @@ Panthera pardus kotiya</Especie>
                 <Vida>18-20 años en naturaleza, hasta 25 años en cautividad.</Vida>
             </Animal>
         </Animals>
-        <Subtitulo>La cueva de Kitum se adentra unos 200 metros en el interior del Monte Elgon, en el Parque Nacional del Monte Elgon, en Kenia. Ella y sus vecinas son las únicas cuevas conocidas formadas por rocas volcánicas piroclásticas, cuya modificación a lo largo del tiempo ha dado lugar a la formación de sales minerales.</Subtitulo>
-        <Titulo>HUMEDALES AFRICANOS: LA CUEVA DE KITUM</Titulo>
-    </Habitat>
-    <Habitat>
+        <Descripcion>La cueva de Kitum se adentra unos 200 metros en el interior del Monte Elgon, en el Parque Nacional del Monte Elgon, en Kenia. Ella y sus vecinas son las únicas cuevas conocidas formadas por rocas volcánicas piroclásticas, cuya modificación a lo largo del tiempo ha dado lugar a la formación de sales minerales.</Descripcion>
+        <Nombre>HUMEDALES AFRICANOS: LA CUEVA DE KITUM</Nombre>
+    </Zona>
+    <Zona>
         <Animals>
             <Animal>
                 <Clase>Aves</Clase>
@@ -30411,9 +30411,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -31406,9 +31406,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -32401,9 +32401,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -33396,9 +33396,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -34391,9 +34391,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -35386,9 +35386,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -36381,9 +36381,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -37376,9 +37376,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -38371,9 +38371,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -39366,9 +39366,9 @@ Panthera leo</Especie>
                 <Gestacion>300 días.</Gestacion>
                 <Habitat>Aunque el búfalo rojo prefiere prados abiertos, zonas pantanosas y cursos de agua de las selvas lluviosas, puede observarse en sabanas arboladas de áreas más secas.</Habitat>
                 <Nombre>Búfalo rojo</Nombre>
-                <Crias>1</Crias>
+                <Crias>300 días.</Crias>
                 <Orden>Artiodactyla</Orden>
-                <Vida>18-20 años en la naturaleza, hasta 28 en cautividad.</Vida>
+                <Vida>1</Vida>
             </Animal>
             <Animal>
                 <Clase>Reptilia</Clase>
@@ -39821,7 +39821,7 @@ Panthera pardus kotiya</Especie>
                 <Vida>18-20 años en naturaleza, hasta 25 años en cautividad.</Vida>
             </Animal>
         </Animals>
-        <Subtitulo>La fauna y flora de esta isla del océano Índico, separada del continente africano hace 160 millones de años, ha evolucionado aislada, de forma que el 80% de sus especies son endémicas, lo que implica que sólo se encuentran en este punto del planeta.</Subtitulo>
-        <Titulo>ISLA DE MADAGASCAR</Titulo>
-    </Habitat>
-</Habitats>
+        <Descripcion>La fauna y flora de esta isla del océano Índico, separada del continente africano hace 160 millones de años, ha evolucionado aislada, de forma que el 80% de sus especies son endémicas, lo que implica que sólo se encuentran en este punto del planeta.</Descripcion>
+        <Nombre>ISLA DE MADAGASCAR</Nombre>
+    </Zona>
+</Zonas>

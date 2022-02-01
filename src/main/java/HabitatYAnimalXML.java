@@ -5,41 +5,29 @@ import javax.xml.crypto.Data;
 import java.util.ArrayList;
 import java.util.List;
 
-@XmlRootElement(name="Habitats")
+/**
+ * Clase HabitatYAnimalXML: Tiene el objetivo de guardar Listas de habitatsXML, cambiarlas o darlas preparadas para ser convertidas a XML.
+ */
+@XmlRootElement(name="Zonas")
 public class HabitatYAnimalXML {
 
     List<HabitatXML> habitatsXMLS = new ArrayList<>();
-    //List<AnimalXML> animalsXMLS = new ArrayList<>();
-
 
     public List<HabitatXML> getHabitatsXMLS() {
         return habitatsXMLS;
     }
 
-   /* public List<AnimalXML> getAnimalsXMLS() {
-        return animalsXMLS;
-    }*/
-
-
-
-    @XmlElement(name = "Habitat")
+    @XmlElement(name = "Zona")
     public void setHabitatsXMLS(List<HabitatXML> habitatsXMLS) {
         this.habitatsXMLS = habitatsXMLS;
     }
 
-   /* @XmlElement(name = "Animal")
-    public void setAnimalsXMLS(List<AnimalXML> animalsXMLS) {
-        this.animalsXMLS = animalsXMLS;
-    }*/
-
+    /**
+     * Metodo addHabitatXML: Se encarga de añadir a la lista de habitatsXML un habitatXML.
+     */
     public void addHabitatXML(HabitatXML habitatXML) {
         this.habitatsXMLS.add(habitatXML);
     }
-
-   /* public void addAnimalXML(AnimalXML animalXML) {
-        this.animalsXMLS.add(animalXML);
-    }*/
-
 
 
 }

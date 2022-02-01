@@ -6,9 +6,16 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Clase CsvAnimal: Tiene el objetivo de crear un documento csv con todos los animales scrapeadas previamente.
+ */
 public class CsvAnimal {
+    /**
+     * Constructor para crear el CsvAnimal.
+     * @param animals Lista de animales
+     */
     public CsvAnimal(List<Animal> animals){
-        File file = new File("Animal3.csv");
+        File file = new File("Animal.csv");
         CSVWriter csvWriter;
         String[] head = {"Nombre","Especie","Familia","Orden","Clase","Habitat","Dieta","Gestacion","Numero de crias","Vida"};
         List<String[]> text = new ArrayList<>();

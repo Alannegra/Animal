@@ -1,3 +1,6 @@
+/**
+ * Clase Animal: Tiene el objetivo de guardar los datos de un animal, cambiarlos o darlos.
+ */
 public class Animal {
 
     String nombre;

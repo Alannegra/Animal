@@ -1,6 +1,9 @@
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 
+/**
+ * Clase AnimalXML: Tiene el objetivo de guardar los datos de un animal, cambiarlos o darlos preparados para ser convertidos a XML.
+ */
     @XmlRootElement(name="Animal")
     public class AnimalXML {
         String nombre;
@@ -15,6 +18,20 @@ import jakarta.xml.bind.annotation.XmlRootElement;
         String numeroDeCrias;
         String vida;
 
+    /**
+     * Constructor para construir un AnimalXML
+     * @param nombre El nombre del animal
+     * @param especie La especie del animal
+     * @param familia La familia del animal
+     * @param orden El orden del animal
+     * @param clase La clase del animal
+     *
+     * @param habitat El habitat del animal
+     * @param dieta La dieta del animal
+     * @param gestacion La gestacion del animal
+     * @param numeroDeCrias El numero de crias del animal
+     * @param vida La vida del animal
+     */
         public AnimalXML(String nombre, String especie, String familia, String orden, String clase, String habitat, String dieta, String gestacion, String numeroDeCrias, String vida) {
             this.nombre = nombre;
             this.especie = especie;
